@@ -26,7 +26,7 @@ const Main = () => {
         <TextArea
           value={json}
           style={{ resize: 'none' }}
-          rows={45}
+          rows={30}
         />
         <CopyToClipboard text={json}>
           <Button style={{ margin: 10, padding: 10 }}>Copy to clipboard</Button>
